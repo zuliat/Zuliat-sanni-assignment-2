@@ -16,7 +16,7 @@ const assignment = {};
 function sumOfNumbers(arrayOfNumbers) {
     let total = 0;
     for(let i = 0; i < arrayOfNumbers.length; i++){
-        return total += i
+        return total += i;
     }
     return arrayOfNumbers.length;
 }
@@ -34,7 +34,7 @@ function sumOfNumbers(arrayOfNumbers) {
 function countEvenNumbers(arrayOfNumbers) {
     for(let j = 0; j < arrayOfNumbers.length; j++){
         if(arrayOfNumbers[i] % 2 === 0){
-            return arrayOfNumbers[i]
+            return arrayOfNumbers[i];
         }
     }
     return arrayOfNumbers.length;
