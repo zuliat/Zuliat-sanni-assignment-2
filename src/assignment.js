@@ -34,14 +34,16 @@ function sumOfNumbers(arrayOfNumbers) {
  */
 function countEvenNumbers(arrayOfNumbers) {
     let newArray = [];
-    for(let j = 0; j < arrayOfNumbers.length; j++){
-        if(j % 2 === 0){
-            newArray.push(arrayOfNumbers[j]);
-        }
-    }
-    return newArray
-    
-}
+    for(let i = 0; i < arrayOfNumbers.length; i++){
+        
+        let even = arrayOfNumbers[i];
+        if(even % 2 === 0){
+            newArray.push(even);
+            
+        };
+    }; 
+    return newArray.length;
+};
  assignment.countEvenNumbers = countEvenNumbers;
 
 /**
@@ -60,6 +62,7 @@ function countEvenNumbers(arrayOfNumbers) {
  */
 function celsiusToFahrenheit(arrayOfNumbers) {
     return arrayOfNumbers;
+
 }
 // assignment.celsiusToFahrenheit = celsiusToFahrenheit;
 
